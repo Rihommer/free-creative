@@ -13,7 +13,11 @@
 }
 
 :root {
-  
+  --font-color: #181818;
+}
+
+html {
+  font-size: 10px;
 }
 * {
   box-sizing: border-box;
@@ -26,5 +30,7 @@
 }
 
 body {
-
+  font-family: "20kopeek";
+  font-size: 1.5rem;
+  color: var(--font-color);
 }
