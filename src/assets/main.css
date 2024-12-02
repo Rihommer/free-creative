@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "20kopeek";
+  src: local("20kopeek"), local("20 Kopeek"), local("20-kopeek"),
+    url("./fonts/20-kopeek.woff2") format(woff2);
+  font-display: block;
+}
+
+@font-face {
+  font-family: "20kopeekBook";
+  src: local("20kopeekbook"), local("20 Kopeek Book"), local("20-kopeek-book"),
+    url("./fonts/20-kopeek-book.woff2") format(woff2);
+  font-display: block;
+}
+
 :root {
   
 }
