@@ -14,6 +14,8 @@
 
 :root {
   --font-color: #181818;
+  --header-margin-block-start: 27px;
+  --header-height-full: calc(var(--header-margin-block-start) + 42px);
 }
 
 html {
@@ -30,7 +32,38 @@ html {
 }
 
 body {
+  min-width: 320px;
+
   font-family: "20kopeek";
   font-size: 1.5rem;
   color: var(--font-color);
+}
+
+.container {
+  margin-inline: 35px;
+}
+
+@media(min-width: 360px) {
+  .container {
+    margin-inline: 29px;
+  }
+}
+
+@media(min-width: 768px) {
+  .container {
+    margin-inline: 39px;
+  }
+}
+
+@media(min-width: 992px) {
+  .container {
+    margin-inline: 47px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .container {
+    max-width: 1110px;
+    margin-inline: auto;
+  }
 }

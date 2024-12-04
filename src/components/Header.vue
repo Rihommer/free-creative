@@ -19,7 +19,7 @@
 </script>
 
 <template>
-    <header class="header">
+    <header class="header container">
         <a class="header__logo" href="javascript: void(0)">
             <img class="header__logo-img" src="./icons/logo.svg" alt="FREE" width="84" height="36">
         </a>
@@ -83,7 +83,7 @@
 	border-radius: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
     .header__text {
         align-self: flex-end;
         max-width: 23ch;
@@ -91,13 +91,13 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .header__text {
         font-size: 1.4rem;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .burger {
         display: none;
     }
@@ -110,7 +110,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .header__text {
         font-size: 1.5rem;
     }
