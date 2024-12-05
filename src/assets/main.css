@@ -43,9 +43,38 @@ body {
   margin-inline: 35px;
 }
 
+h2 {
+  font-family: "20kopeekBook";
+	font-size: 3.2rem;
+	line-height: 1.1;
+	font-weight: 400;
+}
+
+picture,
+img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
 @media(min-width: 360px) {
   .container {
     margin-inline: 29px;
+  }
+}
+
+@media(min-width: 577px) {
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
   }
 }
 
@@ -58,6 +87,14 @@ body {
 @media(min-width: 992px) {
   .container {
     margin-inline: 47px;
+  }
+
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  p {
+    font-size: 1.8rem;
   }
 }
 
