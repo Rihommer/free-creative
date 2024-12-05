@@ -62,7 +62,7 @@ p {
   line-height: 1.5;
 }
 
-@media(min-width: 360px) {
+@media(min-width: 361px) {
   .container {
     margin-inline: 29px;
   }
@@ -78,13 +78,13 @@ p {
   }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
   .container {
     margin-inline: 39px;
   }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 993px) {
   .container {
     margin-inline: 47px;
   }
@@ -98,7 +98,7 @@ p {
   }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 1201px) {
   .container {
     max-width: 1110px;
     margin-inline: auto;

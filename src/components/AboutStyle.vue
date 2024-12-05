@@ -94,7 +94,7 @@
     }
 }
 
-@media(min-width: 767px) {
+@media(min-width: 769px) {
     .about-style {
         padding-block-start: 80px;
     }

@@ -25,19 +25,12 @@
         border-color: #000;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 577px) {
         .link {
             padding-block: 18px;
 
             font-size: 1.6rem;
             line-height: 1.4;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .link {
-            padding-block: 22px;
-            font-size: 1.8rem;
         }
     }
 </style>

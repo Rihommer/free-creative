@@ -83,7 +83,7 @@
 	border-radius: 15px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 361px) {
     .header__text {
         align-self: flex-end;
         max-width: 23ch;
@@ -91,13 +91,13 @@
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 577px) {
     .header__text {
         font-size: 1.4rem;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .burger {
         display: none;
     }
@@ -110,7 +110,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .header__text {
         font-size: 1.5rem;
     }

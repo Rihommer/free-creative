@@ -77,7 +77,7 @@
         margin-block-start: 40px;
     }
 
-    @media(min-width: 360px) {
+    @media(min-width: 361px) {
         .intro {
             min-height: 496px;
             background-image:
@@ -103,7 +103,7 @@
         }
     }
 
-    @media(min-width: 576px) {
+    @media(min-width: 577px) {
         .intro {
             min-height: 1024px;
             background-image:
@@ -140,7 +140,7 @@
         }
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 769px) {
         .intro {
             min-height: 768px;
             color: var(--font-color);
@@ -167,7 +167,7 @@
         }
     }
 
-    @media(min-width: 992px) {
+    @media(min-width: 993px) {
         .intro {
             min-height: 945px;
             background-image:
