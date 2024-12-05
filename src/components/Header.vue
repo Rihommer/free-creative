@@ -24,7 +24,7 @@
             <img class="header__logo-img" src="./icons/logo.svg" alt="FREE" width="84" height="36">
         </a>
         <div class="header__text">Разрабатываем фирменные стили с 2009 года</div>
-        <button class="burger"></button>
+        <button class="burger" type="button" aria-label="menu"></button>
         <div class="header__box">
             <a class="header__telephone" href="tel:+74951563911">8 (495) 156-39-11</a>
             <Social
