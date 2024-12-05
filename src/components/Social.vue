@@ -19,4 +19,9 @@
 	border: 1px solid #fff;
 	border-radius: 50%;
 }
+
+.social__img {
+	width: 13px;
+	height: 13px;
+}
 </style>
