@@ -2,13 +2,15 @@
     import Header from './components/Header.vue';
     import Intro from './components/Intro.vue';
     import AboutStyle from './components/AboutStyle.vue';
+    import ListSection from './components/ListSection.vue';
 </script>
 
 <template>
   <Header />
   <main>
     <Intro />
-    <About-style/>
+    <About-style />
+    <ListSection />
   </main>
 </template>
 
