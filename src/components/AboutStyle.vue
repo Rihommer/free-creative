@@ -1,5 +1,25 @@
 <script setup>
+    import { ref } from 'vue';
+    import List from './List.vue';
 
+    const list = ref([
+        {
+            title: 'Название компании'
+        },
+        {
+            title: 'Логотип – основной графический символ'
+        },
+        {
+            title: 'Фирменные цвета всей коммуникации (онлайн и оффлайн)'
+        },
+        {
+            title: 'Шрифт'
+        },
+        {
+            title: 'Носители фирменного стиля',
+            text: 'Этот набор варьируется в зависимости от нужд и потребностей компании: визитные карточки, фирменные бланки и прочая деловая документация, упаковка, сувенирная продукция, брендинг автотранспорта.'
+        }
+    ]);
 </script>
 
 <template>
@@ -50,6 +70,14 @@
                 </p>
             </div>
         </div>
+        <div class="about-style__list">
+            <p class="about-style__list-title">
+                Название и&nbsp;логотип&nbsp;&mdash; важные составляющие фирменного стиля, но&nbsp;на&nbsp;этом всё только начинается. Ниже основные элементы:
+            </p>
+            <List
+                :list="list"
+            />
+        </div>
     </section>
 </template>
 
@@ -70,6 +98,20 @@
 	margin-block-start: 1lh;
 }
 
+.about-style__list {
+	margin-block-start: 90px;
+}
+
+.about-style__list-title {
+    font-family: "20kopeekBook";
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.list {
+	margin-block-start: 39px;
+}
+
 @media(min-width: 361px) {
     .about-style {
         padding-block-start: 92px;
@@ -78,7 +120,12 @@
     .about-style__text {
         max-inline-size: 380px;
     }
+
+    .list {
+	    margin-block-start: 52px;
+    }
 }
+
 
 @media(min-width: 577px) {
     .about-style {
@@ -91,6 +138,18 @@
 
     .about-style__text {
         max-inline-size: 460px;
+    }
+
+    .about-style__list {
+        margin-block-start: 120px;
+    }
+
+    .about-style__list-title {
+        font-size: 4.5rem;
+    }
+
+    .list {
+        margin-block-start: 43px;
     }
 }
 
@@ -114,11 +173,23 @@
         flex: 1;
         margin-block-start: initial;
     }
+
+    .list {
+        margin-block-start: 40px;
+    }
 }
 
 @media(min-width: 993px) {
     .about-style {
         padding-block-start: 70px;
+    }
+
+    .about-style__list {
+        margin-block-start: 140px;
+    }
+
+    .about-style__list-title {
+        font-size: 5.5rem;
     }
 }
 </style>
