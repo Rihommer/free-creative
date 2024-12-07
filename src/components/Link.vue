@@ -21,7 +21,8 @@
         background-color: #fff;
     }
 
-    .link--border {
+    .link--bordered {
+        font-size: 1.8rem;
         border-color: #000;
     }
 
@@ -31,6 +32,12 @@
 
             font-size: 1.6rem;
             line-height: 1.4;
+        }
+    }
+
+    @media(min-width: 993px) {
+        .link {
+            padding-block: 23px;
         }
     }
 </style>
