@@ -16,6 +16,7 @@
   --font-color: #181818;
   --header-margin-block-start: 27px;
   --header-height-full: calc(var(--header-margin-block-start) + 42px);
+  --strong-color: #2B59C3;
 }
 
 html {
@@ -60,6 +61,14 @@ img {
 
 p {
   line-height: 1.5;
+}
+
+.p--colored {
+  color: #fff;
+
+  background-color: var(--strong-color);
+  border-radius: 5px;
+  outline: 14px solid var(--strong-color);
 }
 
 @media(min-width: 361px) {
