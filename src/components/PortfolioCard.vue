@@ -25,12 +25,12 @@
         <picture class="portfolio-card__img">
             <template v-for="size in imageSizes" :key="size.media">
                 <source
-                    :srcset="`${picture[size.avif + '1xAvif']} 1x, ${picture[size.avif + '2xAvif']} 2x`"
+                    :srcset="`${picture.avif[size.avif]['1x']} 1x, ${picture.avif[size.avif]['2x']} 2x`"
                     :media="size.media"
                     type="image/avif"
                 />
                 <source
-                    :srcset="`${picture[size.webp + '1xWebp']} 1x, ${picture[size.webp + '2xWebp']} 2x`"
+                    :srcset="`${picture.webp[size.webp]['1x']} 1x, ${picture.webp[size.webp]['2x']} 2x`"
                     :media="size.media"
                     type="image/webp"
                 />
